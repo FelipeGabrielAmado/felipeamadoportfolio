@@ -24,8 +24,58 @@
 
 .sub-header ul a{
     margin-left: 100px;
+    color: #FFFFFF;
 }
 
 a{
     text-decoration: none;
+}
+
+.header .header-items a {
+    margin: 2px 35px;
+    transition: .5s;
+    font-weight: 300;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.header .header-items a:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 25px;
+    right: 0;
+    color: #d63031;
+    background: #d63031;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+}
+
+.header .header-items a:hover:after {
+    width: 100%;
+    left: 0;
+    background: #d63031;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.active-item {
+    border-bottom: 3px solid;
+    color: #d73032;
+}
+
+.active-item a{
+    font-weight: bolder!important;
+}
+
+b {
+    color: #d73032;
 }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import { faFacebookF, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { faBriefcase, faEnvelope, faUser} from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faEnvelope, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './styles.css'
@@ -13,7 +12,7 @@ export default class Main extends Component {
             <div>
                 <div className='home-page'>
                     <div className='name'><b>Felipe</b> Gabriel <b>Amado</b></div>
-                    <div className='description'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus orci non massa dapibus, sagittis volutpat ante sagittis. Suspendisse lectus dolor, convallis quis convallis id, pharetra a purus. Curabitur rhoncus venenatis quam a fermentum. Pellentesque nec purus at mi dignissim scelerisque at ac leo. Maecenas in dictum augue. Aenean sed tempor augue. Ut nec turpis vitae ex efficitur eleifend id at leo. Nullam finibus congue aliquam. Quisque egestas massa non ex efficitur dictum. Curabitur imperdiet sed arcu vel tristique. Cras mattis, purus in placerat iaculis, lacus nisl efficitur orci, quis semper libero massa id magna. </div>
+                    <div className='description'> My name is <b>Felipe Gabriel Amado</b>, I'm a <b>21 years old programmer</b> that likes to create beautiful things. When I was 5 years old my dad died, so my brother had to work and I had to be alone at my house, after this, I started playing video games, thats when I found a <b>love for technology</b>. In 2021 I will finish <b>Computer Science</b> course and after that I really hope that I can <b>travel</b> abroad and <b>meet new people</b> and <b>new cultures</b>. </div>
 
                     <div className='image-background'>
                         <img src='../../../18084.jpg' />
@@ -23,22 +22,28 @@ export default class Main extends Component {
                 <div className='cards'>
 
                     <div className='buttons'>
-                        <div className='about-me-card'>
-                            <a><FontAwesomeIcon icon={faUser} /> <p>About me</p></a>
-                        </div>
+                        <a href='/about'>
+                            <div className='about-me-card'>
+                                <FontAwesomeIcon icon={faUser} /> <p>About me</p>
+                            </div>
+                        </a>
 
-                        <div className='jobs-card'>
-                            <a><FontAwesomeIcon icon={faBriefcase} /> <p>Jobs</p></a>
-                        </div>
+                        <a href='/jobs'>
+                            <div className='jobs-card'>
+                                <FontAwesomeIcon icon={faBriefcase} /> <p>Jobs</p>
+                            </div>
+                        </a>
 
-                        <div className='contact-card'>
-                            <a><FontAwesomeIcon icon={faEnvelope} /> <p>Contact</p></a>
-                        </div>
+                        <a href='/contact'>
+                            <div className='contact-card'>
+                                <FontAwesomeIcon icon={faEnvelope} /> <p>Contact</p>
+                            </div>
+                        </a>
                     </div>
 
                 </div>
 
-            </div>
+            </div >
         )
     }
 }

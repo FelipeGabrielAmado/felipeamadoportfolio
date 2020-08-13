@@ -12,12 +12,12 @@ export default class Header extends Component {
                         <h1>Felipe Amado</h1>
                     </header>
                 </a>
-                <header className='sub-header'>
+                <header className='header-items'>
                     <ul>
-                        <li> <a> home </a> </li>
-                        <li> <a> about me </a></li> 
-                        <li> <a> my jobs </a></li>    
-                        <li> <a> contact </a></li>   
+                        <li className={(window.location.pathname === '/') ? "active-item" : ""}> <a href='/'> home </a> </li>
+                        <li className={(window.location.pathname === '/about') ? "active-item" : ""}> <a href='/about'> about me </a></li> 
+                        <li className={(window.location.pathname === '/jobs') ? "active-item" : ""}> <a href='/jobs'> my jobs </a></li>    
+                        <li className={(window.location.pathname === '/contact') ? "active-item" : ""}> <a href='/contact'> contact </a></li>   
                     </ul>
                 </header>
             </div>
