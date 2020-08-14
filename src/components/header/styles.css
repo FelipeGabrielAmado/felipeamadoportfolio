@@ -76,6 +76,6 @@ ul {
     font-weight: bolder!important;
 }
 
-b {
+.description b {
     color: #d73032;
 }
