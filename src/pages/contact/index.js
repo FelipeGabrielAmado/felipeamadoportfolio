@@ -63,7 +63,7 @@ export default class Contact extends Component {
 
                             <label>
                                 Message:
-                    <input type="text" name="name" onChange={this.handleMessage} placeholder='Enter your message' />
+                    <textarea name="name" onChange={this.handleMessage} placeholder='Enter your message' />
                             </label>
 
                             <button type="submit">Send</button>

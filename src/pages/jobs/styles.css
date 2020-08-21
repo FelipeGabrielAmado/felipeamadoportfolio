@@ -1,0 +1,40 @@
+.job-item-left {
+    display: flex;
+    justify-content: flex-start;
+    background: #191818;
+    width: 1450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
+}
+
+.job-item-left h2{
+    margin: 0;
+    color: #d73032;
+}
+
+.job-item-left img {
+    border-radius: 5px 0px 0px 5px;
+    width: 200px;
+}
+
+.job-text{
+    margin-left: 60px;
+}
+
+.job-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a button{
+    padding: 10px 50px;
+}
+
+.job-text a{
+    justify-content: flex-start;
+}

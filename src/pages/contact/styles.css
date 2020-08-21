@@ -54,7 +54,7 @@ form {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 100px;
 }
 
@@ -129,4 +129,18 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+textarea {
+    border: 2px solid #FFFFFF;
+    background: #ffffff14;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 5px;
+    padding-left: 10px;
+    resize: none;
+    width: 25em;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
 }
