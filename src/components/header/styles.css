@@ -29,6 +29,8 @@
 
 a{
     text-decoration: none;
+    color: #FFFFFF;
+    transition: .5s;
 }
 
 .header .header-items a {
