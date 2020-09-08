@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { faFacebookF, faInstagram, faTwitter, faYoutube, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faYoutube, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './styles.css'

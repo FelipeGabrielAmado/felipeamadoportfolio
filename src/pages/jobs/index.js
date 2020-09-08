@@ -7,8 +7,9 @@ export default class Jobs extends Component {
         return (
             <div className='job-page'>
                 <div className='job-item-left'>
+                    <div className='job-status-done'>Finished</div>
                     <div className='job-content'>
-                        <img src='../../../alcatraz.png' />
+                        <img src='../../../alcatraz.png' alt='Alcatraz Thumbnail' />
                         <div className='job-text'>
                             <h2>Alcatraz Movie Hub</h2>
                             <p><b>Front end:</b> ReactJS</p>
@@ -21,8 +22,9 @@ export default class Jobs extends Component {
                 </div>
 
                 <div className='job-item-left'>
+                    <div className='job-status-progress'>In progress</div>
                     <div className='job-content'>
-                        <img src='../../../portfolio.png' />
+                        <img src='../../../portfolio.png' alt='Portfolio Thumbnail' />
                         <div className='job-text'>
                             <h2>Alcatraz Movie Hub</h2>
                             <p><b>Front end:</b> ReactJS</p>

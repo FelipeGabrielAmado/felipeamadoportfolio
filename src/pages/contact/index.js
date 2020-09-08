@@ -1,6 +1,6 @@
-import React, { Component, Text, Linking } from 'react';
+import React, { Component } from 'react';
 
-import { faFacebookF, faInstagram, faTwitter, faYoutube, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faTwitter, faYoutube, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './styles.css'
@@ -34,7 +34,7 @@ export default class Contact extends Component {
 
         const response = api.post(`message`, { name, message, email })
             .then(res => {
-                console.log(res);
+                console.log(response);
                 console.log(res.data);
                 alert(res.data.message)
             })
@@ -48,7 +48,7 @@ export default class Contact extends Component {
                     <h2>Contact me</h2>
                     <div className='contact-content'>
                         <div className='left-form'>
-                            <img src='../../../programmer.png' />
+                            <img src='../../../programmer.png' alt='Programmer Vector' />
                         </div>
                         <form onSubmit={this.handleSubmit}>
                             <label>

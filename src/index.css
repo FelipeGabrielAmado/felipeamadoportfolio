@@ -6,9 +6,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #171616;
   color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.wallpaperscraft.com/image/los_angeles_laguna_beach_buildings_skyscrapers_58395_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root {
+  width: 100%;
 }
