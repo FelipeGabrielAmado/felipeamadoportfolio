@@ -4,35 +4,35 @@
     justify-content: center;
 }
 
-.about{
+.about {
     z-index: 999;
     margin-top: 150px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;    
+    align-items: flex-start;
     flex-direction: row;
 }
 
-.about-text{
+.about-text {
     margin-left: 50px;
 }
 
-.about h2{
+.about h2 {
     margin: 0;
     letter-spacing: 2px;
 }
 
-.about p{
+.about p {
     width: 500px;
     text-align: justify;
     line-height: 30px;
 }
 
-.about p b{
+.about p b {
     color: #d73032;
 }
 
-.about img{
+.about img {
     width: 250px;
     border-radius: 5px;
 }
@@ -41,28 +41,32 @@
     width: 800px;
     text-align: justify;
     line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.experience p{
+.experience p {
     line-height: 30px;
 }
 
-.experience h2{
+.experience h2 {
     margin: 30px 0px 0px 0px;
 }
 
-.experience p b{
+.experience p b {
     color: #d73032;
 }
 
-.dreams h2{
+.dreams h2 {
     margin: 30px 0px 0px 0px;
 }
 
-.dreams p b{
+.dreams p b {
     color: #d73032;
 }
 
-.dreams p{
+.dreams p {
     line-height: 30px;
 }

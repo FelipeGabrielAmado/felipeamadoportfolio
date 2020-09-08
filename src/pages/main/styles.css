@@ -100,7 +100,7 @@ p {
     border-radius: 50px;
     padding: 15px;
     transition: .5s;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .home-button:hover {
@@ -110,4 +110,35 @@ p {
 
 a .home-button {
     color: #FFFFFF;
+}
+
+.jobs-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.jobs-main h2 {
+    border-bottom: 3px solid #d53032;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 20px 0px;
+}
+
+.jobs-main img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 15px;
+    transition: .5s;
+}
+
+.jobs-main img:hover {
+    transform: scale(1.1);
+}
+
+.jobs-images {
+    display: flex;
+    flex-wrap: wrap;
 }
