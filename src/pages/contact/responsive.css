@@ -26,14 +26,11 @@
 
 @media only screen and (max-width: 600px) {
     .social-medias {
-        display: none;
+        width: 500px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .left-form img {
-        width: 40%;
-    }
     form {
         align-items: center;
     }
@@ -46,6 +43,13 @@
     button {
         padding: 10px 95px;
     }
+    .social-medias {
+        width: 350px;
+    }
+    .contact-icon {
+        margin: 10px;
+        font-size: 35px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -57,5 +61,12 @@
     }
     button {
         padding: 10px 75px;
+    }
+    .social-medias {
+        width: 300px;
+    }
+    .contact-icon {
+        margin: 5px;
+        font-size: 30px;
     }
 }
