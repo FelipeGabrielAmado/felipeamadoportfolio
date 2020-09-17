@@ -60,3 +60,17 @@ a button {
     border-radius: 50px;
     font-weight: 700;
 }
+
+.job-status-designing {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #3498db;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.job-item-left:last-child {
+    margin-bottom: 100px;
+}

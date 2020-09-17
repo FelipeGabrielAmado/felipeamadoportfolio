@@ -23,10 +23,10 @@ export default class Main extends Component {
                         <a href='/'>
                             <img src='../../../portfolio.png' alt='Portfolio Thumbnail' />
                         </a>
-                        <a href='/'>
+                        <a href='https://xd.adobe.com/view/d9f9250d-e74b-4d8a-821e-4569528df154-8caa/'>
                             <img src='../../../conceptron.png' alt='Conceptron Thumbnail' />
                         </a>
-                        <a href='/'>
+                        <a href='https://xd.adobe.com/view/5739ba56-1a1f-4ef1-9490-3673327d16f5-026a/'>
                             <img src='../../../ogym.png' alt='OGym Thumbnail' />
                         </a>
                     </div>
