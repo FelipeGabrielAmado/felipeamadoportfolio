@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.contact-page h2{
+.contact-page h2 {
     border-bottom: 3px solid #d83032;
     padding: 5px 20px;
 }
@@ -21,9 +21,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 100px;
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
 
 .contact-icon {
@@ -31,7 +31,7 @@
     font-size: 40px;
 }
 
-a:hover{
+a:hover {
     color: #d83032;
 }
 
@@ -45,9 +45,9 @@ a:hover{
     flex-direction: column;
     border-radius: 10px;
     padding: 50px 0px;
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
 
 form {
@@ -56,6 +56,7 @@ form {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 100px;
+    margin-right: 100px;
 }
 
 label {
@@ -70,7 +71,8 @@ label {
 
 input[type="text"] {
     border: 2px solid #FFFFFF;
-    background: #ffffff14;;
+    background: #ffffff14;
+    ;
     color: #FFFFFF;
     width: 25em;
     margin-top: 5px;
@@ -87,9 +89,8 @@ input[type="text"] {
     padding: 10px;
 }
 
-.contact-form h2{
+.contact-form h2 {
     text-align: center;
-    width: 200px;
     margin: 0 auto;
     margin-bottom: 70px;
     color: #FFFFFF;
@@ -97,20 +98,20 @@ input[type="text"] {
 }
 
 button {
-    padding: 10px 160px;;
+    padding: 10px 160px;
+    ;
     background: linear-gradient(#4cd137, #44bd32);
     color: white;
     border: transparent;
-    border-radius: 2px; 
+    border-radius: 2px;
     margin-top: 10px;
     cursor: pointer;
 }
 
-::placeholder{
+::placeholder {
     color: #FFFFFF;
     font-size: 12px;
     opacity: .8;
-    
 }
 
 .left-form {
@@ -121,8 +122,8 @@ button {
     float: left;
 }
 
-.left-form img{
-    width: 500px;
+.left-form img {
+    width: 80%;
 }
 
 .contact-content {

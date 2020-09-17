@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1500px) {
+    .social-medias {
+        width: 1000px;
+    }
+    .contact-icon {
+        margin: 50px;
+        font-size: 35px;
+    }
+    .contact-content {
+        flex-direction: column;
+    }
+    .left-form img {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .social-medias {
+        width: 600px;
+    }
+    .contact-icon {
+        margin: 30px;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .social-medias {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .left-form img {
+        width: 40%;
+    }
+    form {
+        align-items: center;
+    }
+    input[type="text"] {
+        width: 15em;
+    }
+    textarea {
+        width: 15em;
+    }
+    button {
+        padding: 10px 95px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    input[type="text"] {
+        width: 12em;
+    }
+    textarea {
+        width: 12em;
+    }
+    button {
+        padding: 10px 75px;
+    }
+}

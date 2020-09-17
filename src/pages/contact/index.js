@@ -4,6 +4,7 @@ import { faInstagram, faTwitter, faYoutube, faGithub, faLinkedin } from '@fortaw
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './styles.css'
+import './responsive.css'
 
 import api from '../../services/api'
 
