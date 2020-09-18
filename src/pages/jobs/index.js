@@ -46,7 +46,7 @@ export default class Jobs extends Component {
                             <p><b>Front end:&#160;</b> Django </p>
                             <p><b>Back end:&#160;</b> Python</p>
                             <p><b>Database:&#160;</b> PostgreSQL</p>
-                            <p><b>Motivation:&#160;</b> This is my final paper project developing together with &#160;<a href='https://github.com/jordanalexander'> Jordan</a>.</p>
+                            <p style={{ display: "flex" }}><b>Motivation:&#160;</b> This is my final paper project developing together with &#160;<a href='https://github.com/jordanalexander'> Jordan</a>.</p>
                             <a href='https://xd.adobe.com/view/d9f9250d-e74b-4d8a-821e-4569528df154-8caa/'> <button>See project</button> </a>
                         </div>
                     </div>
